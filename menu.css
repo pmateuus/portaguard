@@ -42,7 +42,7 @@ nav {
     flex-direction: column;
 }
 
-.circle-image {
+.circle-image, .hidden-circle-image {
     width: 54px;
     height: 54px;
     background: #FFFFFF;
@@ -51,15 +51,23 @@ nav {
     justify-content: center;
     align-items: center;
     margin-right: 15px;
-    /* margin-bottom: 6px; */
     margin-top: 3px;
+}
+
+.hidden-circle-image {
+    width: 43px;
+    height: 43px;
 }
 
 .image-icon {
     width: 40px;
 }
 
-a {
+.hidden-image-icon {
+    width: 30px;
+}
+
+.visible-text, .hidden-text {
     display: flex;
     align-items: center;
     font-family: var(--font-1);
@@ -68,6 +76,10 @@ a {
     color: #1E1E1E;
     text-decoration: none;
     margin-left: 16px;
+}
+
+.hidden-text {
+    font-size: 14px;
 }
 
 .edge, .last-edge {
@@ -92,4 +104,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hidden-section {
+    display: none;
 }
