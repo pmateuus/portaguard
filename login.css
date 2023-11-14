@@ -1,0 +1,89 @@
+:root {
+    --font-1: 'Inter';
+    --font-2: 'Roboto';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+section {
+    width: 1325px;
+    height: 850px;
+    border-radius: 50px;
+    border: 1px solid #D9D9D9;
+    background: #F1F6F9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-area {
+    width: 406px;
+    height: 575px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--font-1);
+}
+
+.title {
+    margin: 107px 160px 56px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #212A3E;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttons {
+    border-radius: 45px;
+    background: #9BA4B5;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 53px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+
+.password-recovery {
+    color: #394867;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 150px;
+    height: 60px;
+    border-radius: 45px;
+    margin-top: 92px;
+    margin-left: 128px;
+    background: #9BA4B5;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons:hover, .login:hover {
+    background-color: #6b727f; 
+    transition: background-color 0.3s ease; 
+}
