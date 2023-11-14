@@ -1,0 +1,95 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+:root {
+    --font-1: 'Inter';
+    --font-2: 'Roboto';
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+}
+
+.lateral-menu {
+    width: 300px;
+    height: 100%;
+    background: #9BA4B5;
+}
+
+.circle {
+    margin-top: 24px;
+    margin-left: 111px;
+    margin-bottom: 73px;
+    width: 78px;
+    height: 78px;
+    background: #FFFFFF;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.clipboard {
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-image {
+    width: 54px;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    /* margin-bottom: 6px; */
+    margin-top: 3px;
+}
+
+.image-icon {
+    width: 40px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-1);
+    font-size: 17px;
+    font-weight: 500;
+    color: #1E1E1E;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.edge, .last-edge {
+    width: 300px;
+    height: 60px;
+    border-top: 1px solid rgba(57, 72, 103, 0.10);
+    background:#9BA4B5;
+}
+
+.last-edge {
+    border-bottom: 1px solid rgba(57, 72, 103, 0.10);
+    background:#9BA4B5;
+}
+
+.edge:hover, .last-edge:hover {
+    background-color: #6b727f; 
+    transition: background-color 0.3s ease; 
+}
+
+.image-logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
