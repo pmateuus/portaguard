@@ -1,0 +1,123 @@
+:root {
+    --font-1: 'Inter';
+    --font-2: 'Roboto';
+}
+
+.visitor-entry {
+    margin-left: 56px;
+}
+
+.title-page {
+    font-family: var(--font-2);
+    color: #212A3E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.rectangle,
+.rectangle-exit {
+    width: 1050px;
+    height: 820px;
+    border-radius: 50px;
+    background: #DDE6ED;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.complete-name {
+    width: 600px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-left: 36px;
+    margin-top: 116px;
+}
+
+.cpf {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-left: 78px;
+}
+
+.vehicle-plate {
+    width: 300px;
+    height: 35px;
+    margin-top: 67px;
+    margin-right: 78px;
+    border: 1px solid #000;
+    margin-left: 36px;
+}
+
+.company-name {
+    width: 600px;
+    height: 35px;
+    border: 1px solid #000;
+}
+
+.email {
+    width: 500px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-top: 66px;
+    margin-right: 147px;
+    margin-left: 36px;
+}
+
+.telephone {
+    width: 331px;
+    height: 35px;
+    border: 1px solid #000;
+}
+
+.complete-name::placeholder,
+.cpf::placeholder,
+.vehicle-plate::placeholder,
+.company-name::placeholder,
+.email::placeholder,
+.telephone::placeholder {
+    color: #AEAEAE;
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.choice {
+    margin-top: 53px;
+    margin-left: 232px;
+    display: flex;
+}
+
+.entry,
+.exit {
+    width: 190px;
+    height: 35px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #AEAEAE;
+    font-family: var(--font-1);
+    font-size: 16px; 
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.exit-1 {
+    margin-left: 152px;
+}
+
+.save-button {
+    width: 150px;
+    height: 60px;
+    border-radius: 45px;
+    border: 1px solid #000;
+    background: #212A3E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: var(--font-1);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 90px 450px 36px;
+}
+
+.save-button:hover {
+    background-color: #596a8f;
+}

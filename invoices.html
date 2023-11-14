@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/portaguard/styles/menu.css">
+    <link rel="stylesheet" href="/portaguard/styles/invoices.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>Entrada e Saída de Notas Fiscais</title>
+</head>
+
+<body>
+    <section class="menu">
+        <section class="lateral-menu">
+            <div class="circle">
+                <div class="clipboard">
+                    <img src="/portaguard/assets/img/prancheta.svg" alt="Imagem da prancheta">
+                </div>
+            </div>
+            <div class="options">
+                <nav>
+                    <!-- Visible part ✅ -->
+                    <div class="control-visitantes-link">
+                        <div class="edge"><a href="#" class="visible-text">
+                                <p>
+                                    <div class="circle-image"><img class="image-icon"
+                                            src="/portaguard/assets/img/usuario-final.svg"
+                                            alt="imagem ilustrativa dos usuarios"></div>Controle de Visitantes
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Hidden part ❌ -->
+                    <div id="hidden-section-1" class="hidden-section">
+                        <div class="edge"><a href="#" class="hidden-text">
+                                <p>
+                                    <div class="hidden-circle-image"><img class="hidden-image-icon"
+                                            src="/portaguard/assets/img/entrada-visitante.svg"
+                                            alt="imagem ilustrativa da entrada de visitante"></div>Entrada de Visitante
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Hidden part ❌ -->
+                    <div id="hidden-section-2" class="hidden-section">
+                        <div class="edge"><a href="#" class="hidden-text">
+                                <p>
+                                    <div class="hidden-circle-image"><img class="hidden-image-icon"
+                                            src="/portaguard/assets/img/saida-visitante.svg"
+                                            alt="imagem ilustrativa da saída de visitante"></div>Saída de Visitante
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Visible part ✅ -->
+                    <div class="control-notas-link">
+                        <div class="edge"><a href="#" class="visible-text">
+                                <p>
+                                    <div class="circle-image"><img class="image-icon"
+                                            src="/portaguard/assets/img/nota.svg"
+                                            alt="imagem ilustrativa das notas fiscais"></div>Controle de Notas Fiscais
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Hidden part ❌ -->
+                    <div id="hidden-section-3" class="hidden-section">
+                        <div class="edge"><a href="#" class="hidden-text">
+                                <p>
+                                    <div class="hidden-circle-image"><img class="hidden-image-icon"
+                                            src="/portaguard/assets/img/documentos.svg"
+                                            alt="imagem ilustrativa da saída / entrada de notas"></div>Entrada / Saída
+                                    de
+                                    Notas
+                                    Fiscais
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Visible part ✅ -->
+                    <div class="consulta-dados-link">
+                        <div class="edge"><a href="#" class="visible-text">
+                                <p>
+                                    <div class="circle-image"><img class="image-icon"
+                                            src="/portaguard/assets/img/pasta.svg"
+                                            alt="imagem ilustrativa de uma pasta de arquivos"></div>Consulta de Dados
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Hidden part ❌ -->
+                    <div id="hidden-section-4" class="hidden-section">
+                        <div class="edge"><a href="#" class="hidden-text">
+                                <p>
+                                    <div class="hidden-circle-image"><img class="hidden-image-icon"
+                                            src="/portaguard/assets/img/banco-de-dados.svg"
+                                            alt="imagem ilustrativa de um banco de dados"></div>Banco de Dados
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Visible part ✅ -->
+                    <div class="area-adm-link">
+                        <div class="edge"><a href="#" class="visible-text">
+                                <p>
+                                    <div class="circle-image"><img class="image-icon"
+                                            src="/portaguard/assets/img/definicoes.svg"
+                                            alt="imagem ilustrativa de um usuario adm "></div> Área do Adm
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Hidden part ❌ -->
+                    <div id="hidden-section-5" class="hidden-section">
+                        <div class="edge"><a href="#" class="hidden-text">
+                                <p>
+                                    <div class="hidden-circle-image"><img class="hidden-image-icon"
+                                            src="/portaguard/assets/img/gerenciamento-de-usuarios.svg"
+                                            alt="imagem ilustrativa do gerenciamento de usuarios"></div>Gerenciamento de
+                                    Usuarios
+                                </p>
+                            </a></div>
+                    </div>
+
+                    <!-- Visible part ✅ -->
+                    <div class="visible-section">
+                        <div class="last-edge"><a href="#" class="visible-text">
+                                <p>
+                                    <div class="circle-image"><img class="image-icon"
+                                            src="/portaguard\assets\img\sair.svg"
+                                            alt="imagem ilustrativa indicando Logout "></div>Logout
+                                </p>
+                            </a></div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <section class="visitor-entry">
+            <h1 class="title-page">Entrada e Saída de Notas Fiscais</h1>
+            <div class="rectangle">
+                <div class="form">
+                    <form action="" method="">
+                        <label for="complete-name"></label>
+                        <input class="complete-name" type="text" id="complete-name" name="" placeholder="Nome Completo">
+                        <label for="CPF"></label>
+                        <input class="cpf" type="text" id="cpf" name="" placeholder="CPF">
+                        <label for="vehicle-plate"></label>
+                        <input class="vehicle-plate" type="text" id="vehicle-plate" name=""
+                            placeholder="Placa do Veículo (Opcional)">
+                        <label for="company-name"></label>
+                        <input class="company-name" type="text" id="company-name" name=""
+                            placeholder="Nome da Empresa (Opcional)">
+                        <label for="e-mail"></label>
+                        <input class="email" type="text" id="e-mail" name="" placeholder="E-mail">
+                        <label for="telephone"></label>
+                        <input class="telephone" type="text" id="telephone" name="" placeholder="Telefone">
+                    </form>
+                </div>
+                <div class="choice">
+                    <input type="checkbox" id="entry" name="entry" checked />
+                    <label class="entry" for="entry">Entrada</label>
+                    <input class="exit-1" type="checkbox" id="exit" name="exit" checked />
+                    <label class="exit" for="exit">Saída</label>
+                </div>
+                <button class="save-button">Salvar</button>
+            </div>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
