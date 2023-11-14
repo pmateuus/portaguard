@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/portaguard/styles/menu.css">
+    <link rel="stylesheet" href="/portaguard/styles/v-entry.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Menu</title>
+    <title>Entrada de Visitantes</title>
 </head>
 
 <body>
@@ -139,9 +140,32 @@
                 </nav>
             </div>
         </section>
-        <section class="image-logo">
-            <img src="/portaguard\assets\img\logo.svg" alt="logo da portaguard">
+
+        <section class="visitor-entry">
+            <h1 class="title-page">Entrada de Visitante</h1>
+            <div class="rectangle">
+                <div class="form">
+                    <form action="" method="">
+                        <label for="complete-name"></label>
+                        <input class="complete-name" type="text" id="complete-name" name="" placeholder="Nome Completo">
+                        <label for="CPF"></label>
+                        <input class="cpf" type="text" id="cpf" name="" placeholder="CPF">
+                        <label for="vehicle-plate"></label>
+                        <input class="vehicle-plate" type="text" id="vehicle-plate" name="" placeholder="Placa do Veículo (Opcional)">
+                        <label for="company-name"></label>
+                        <input class="company-name" type="text" id="company-name" name="" placeholder="Nome da Empresa (Opcional)">
+                        <label for="e-mail"></label>
+                        <input class="email" type="text" id="e-mail" name="" placeholder="E-mail">
+                        <label for="telephone"></label>
+                        <input class="telephone" type="text" id="telephone" name="" placeholder="Telefone">
+                        <label for="visit"></label>
+                        <input class="visit" type="text" id="visit" name="" placeholder="Motivo da Visita (Opcional)">
+                    </form>
+                </div>
+                <button class="save-button">Salvar</button>
+            </div>
         </section>
+
     </section>
 
     <script src="menu.js"></script>
