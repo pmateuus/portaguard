@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/portaguard/styles/menu.css">
+    <link rel="stylesheet" href="/portaguard/styles/v-exit.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Menu</title>
+    <title>Saída de Visitantes</title>
 </head>
 
 <body>
@@ -139,9 +140,45 @@
                 </nav>
             </div>
         </section>
-        <section class="image-logo">
-            <img src="/portaguard\assets\img\logo.svg" alt="logo da portaguard">
+
+        <section class="visitor-entry">
+            <h2 class="title-page">Saída de Visitante</h2>
+                <div class="rectangle">
+
+                    <div class="rectangle-header">
+                        <h3 class="title-page">Visitantes</h3>
+                        <button class="download-visitor">Baixar Visitante</button>
+                    </div>
+
+                    <div class="rectangle-table">
+                        <table>
+                            <tr class="first-line">
+                                <td>STATUS</td>
+                                <td>#</td>
+                                <td>NOME</td>
+                                <td>CPF</td>
+                                <td>PLACA VCI</td>
+                                <td>EMPRESA</td>
+                                <td>TELEFONE</td>
+                                <td>E-MAIL</td>
+                                <td>DT ENTRADA</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox">Aberto</td>
+                                <td>01</td>
+                                <td>João Oliveira</td>
+                                <td>000.000.000-00</td>
+                                <td>BRA2E19</td>
+                                <td>LifeBox</td>
+                                <td>(00) 00000-0000</td>
+                                <td>joão@mail.com</td>
+                                <td>20/09/2023 - 09:38</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
         </section>
+
     </section>
 
     <script src="script.js"></script>
