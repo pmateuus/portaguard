@@ -3,49 +3,131 @@
     --font-2: 'Roboto';
 }
 
-.rectangle {
+.visitor-entry {
+    margin-left: 56px;
+}
+
+.title-page {
+    font-family: var(--font-2);
+    color: #212A3E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.rectangle,
+.rectangle-exit {
     width: 1050px;
     height: 820px;
     border-radius: 50px;
     background: #DDE6ED;
-    margin-left: 41px;
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.rectangle-options {
-    width: 406px;
-    height: 575px;
-    border-radius: 50px;
+.complete-name {
+    width: 600px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-left: 36px;
+    margin-top: 32px;
+}
+
+.cpf {
+    width: 300px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-left: 78px;
+}
+
+.email {
+    width: 500px;
+    height: 35px;
+    margin-top: 35px;
+    margin-right: 55px;
+    border: 1px solid #000;
+    margin-left: 36px;
+}
+
+.user-name {
+    width: 423px;
+    height: 35px;
+    border: 1px solid #000;
     background: #FFF;
+}
+
+.password {
+    width: 450px;
+    height: 35px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-right: 31px;
+}
+
+.complete-name::placeholder,
+.cpf::placeholder,
+.user-name::placeholder,
+.company-name::placeholder,
+.email::placeholder,
+.password::placeholder {
+    color: #AEAEAE;
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.choice {
+    margin-top: 53px;
+    margin-left: 232px;
+    display: flex;
+}
+
+.entry,
+.exit {
+    width: 190px;
+    height: 35px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #AEAEAE;
+    font-family: var(--font-1);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.exit-1 {
+    margin-left: 152px;
+}
+
+.save-button {
+    width: 150px;
+    height: 60px;
+    border-radius: 45px;
+    border: 1px solid #000;
+    background: #212A3E;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: var(--font-1);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 90px 450px 36px;
+}
+
+.save-button:hover {
+    background-color: #596a8f;
 }
 
 h3 {
     color: #000;
-    font-family: var(--font-2);
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 121px;
-}
-
-.option-button {
-    width: 300px;
-    height: 60px;
-    border-radius: 45px;
-    background: #394867;
-    color: #FFF;
     font-family: var(--font-1);
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 19px;
-    margin-left: 53px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 39px;
+    margin-top: 70px;
 }
 
-.option-button:hover {
-    background-color: #4e618b;
-    transition: background-color 0.3s ease;
+.data {
+    display: flex;
+    align-items: center;
 }
