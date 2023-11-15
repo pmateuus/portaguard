@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/portaguard/styles/menu.css">
-    <link rel="stylesheet" href="/portaguard/styles/invoices.css">
+    <link rel="stylesheet" href="/portaguard/styles/bank.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Entrada e Saída de Notas Fiscais</title>
+    <title>Banco de Dados</title>
 </head>
 
 <body>
@@ -142,34 +142,81 @@
         </section>
 
         <section class="visitor-entry">
-            <h1 class="title-page">Entrada e Saída de Notas Fiscais</h1>
+            <h2 class="title-page">Banco de Dados</h2>
             <div class="rectangle">
-                <div class="form">
-                    <form action="" method="">
-                        <label for="complete-name"></label>
-                        <input class="complete-name" type="text" id="complete-name" name="" placeholder="Nome Completo">
-                        <label for="CPF"></label>
-                        <input class="cpf" type="text" id="cpf" name="" placeholder="CPF">
-                        <label for="vehicle-plate"></label>
-                        <input class="vehicle-plate" type="text" id="vehicle-plate" name=""
-                            placeholder="Placa do Veículo (Opcional)">
-                        <label for="company-name"></label>
-                        <input class="company-name" type="text" id="company-name" name=""
-                            placeholder="Nome da Empresa (Opcional)">
-                        <label for="e-mail"></label>
-                        <input class="email" type="text" id="e-mail" name="" placeholder="E-mail">
-                        <label for="telephone"></label>
-                        <input class="telephone" type="text" id="telephone" name="" placeholder="Telefone">
-                    </form>
+
+                <div class="rectangle-header">
+                    <h3 class="title-page">Banco</h3>
+                    <button class="edit">Editar</button>
+                    <button class="delete">Excluir</button>
+                    <button class="export">Exportar</button>
                 </div>
-                <div class="choice">
-                    <input type="checkbox" id="entry" name="entry"/>
-                    <label class="entry" for="entry">Entrada</label>
-                    <input class="exit-1" type="checkbox" id="exit" name="exit"/>
-                    <label class="exit" for="exit">Saída</label>
+
+                <button class="filter"><img class="filter-image" src="/portaguard/assets/img/filtro.svg" alt="imagem de filtro">Filtrar</button>
+
+                <div class="rectangle-table">
+                    <table>
+                        <tr class="first-line">
+                            <td>STATUS</td>
+                            <td>#</td>
+                            <td>NOME</td>
+                            <td>CPF</td>
+                            <td>PLACA VCI</td>
+                            <td>EMPRESA</td>
+                            <td>TELEFONE</td>
+                            <td>E-MAIL</td>
+                            <td>DT ENTRADA</td>
+                            <td>DT SAÍDA</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">Aberto</td>
+                            <td>01</td>
+                            <td>João Oliveira</td>
+                            <td>000.000.000-00</td>
+                            <td>BRA2E19</td>
+                            <td>LifeBox</td>
+                            <td>(00) 00000-0000</td>
+                            <td>joão@mail.com</td>
+                            <td>20/09/2023 - 09:38</td>
+                            <td>20/09/2023 - 11:40</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">Aberto</td>
+                            <td>01</td>
+                            <td>João Oliveira</td>
+                            <td>000.000.000-00</td>
+                            <td>BRA2E19</td>
+                            <td>LifeBox</td>
+                            <td>(00) 00000-0000</td>
+                            <td>joão@mail.com</td>
+                            <td>20/09/2023 - 09:38</td>
+                            <td>20/09/2023 - 11:40</td>
+                        </tr>
+                        <td><input type="checkbox">Aberto</td>
+                        <td>01</td>
+                        <td>João Oliveira</td>
+                        <td>000.000.000-00</td>
+                        <td>BRA2E19</td>
+                        <td>LifeBox</td>
+                        <td>(00) 00000-0000</td>
+                        <td>joão@mail.com</td>
+                        <td>20/09/2023 - 09:38</td>
+                        <td>20/09/2023 - 11:40</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox">Aberto</td>
+                            <td>01</td>
+                            <td>João Oliveira</td>
+                            <td>000.000.000-00</td>
+                            <td>BRA2E19</td>
+                            <td>LifeBox</td>
+                            <td>(00) 00000-0000</td>
+                            <td>joão@mail.com</td>
+                            <td>20/09/2023 - 09:38</td>
+                            <td>20/09/2023 - 11:40</td>
+                        </tr>
+                    </table>
                 </div>
-                <button class="save-button">Salvar</button>
-            </div>
             </div>
         </section>
 
