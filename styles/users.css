@@ -1,0 +1,51 @@
+:root {
+    --font-1: 'Inter';
+    --font-2: 'Roboto';
+}
+
+.rectangle {
+    width: 1050px;
+    height: 820px;
+    border-radius: 50px;
+    background: #DDE6ED;
+    margin-left: 41px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-options {
+    width: 406px;
+    height: 575px;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+    color: #000;
+    font-family: var(--font-2);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 121px;
+}
+
+.option-button {
+    width: 300px;
+    height: 60px;
+    border-radius: 45px;
+    background: #394867;
+    color: #FFF;
+    font-family: var(--font-1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 19px;
+    margin-left: 53px;
+}
+
+.option-button:hover {
+    background-color: #4e618b;
+    transition: background-color 0.3s ease;
+}
